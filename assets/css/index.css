@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+header {
+    background-color: rgb(6, 121, 113);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 20px;
+    color: #fff;
+    
+}
+
+#header .title {
+    margin-bottom: 20px;
+}
+
+#header .paragraph {
+    margin-bottom: 20px;
+}
+
+#header .btn-header{
+    transition: 0.2s;
+}
+
+#header .btn-header:hover{
+    background-color: black;
+    color: pink;
+   
+    
+}
+
+
+nav ol {
+    display: flex;
+
+}
+nav ol li {
+    margin-left: 12px;
+    margin-right: 12px;
+    list-style: none;
+    
+}
+nav ol li a{
+    color: white;
+}
+
+main #header {
+text-align: center;
+color:rgb(137, 137, 14);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+margin: 250px;
+}
+
+main .title{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 50px;
+
+}
+main .paragraph{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main .btn-header{
+    background-color: #0f714d;
+    border: none;
+    border-radius: 100px; /* untuk membuat sudut elemen menjadi melingkar atau membulat. */
+    padding: 20px;
+    font-size: 15px;
+    color: azure;
+}
+#foto {
+   display: flex;
+   justify-content: center;
+   padding-left: 2rem;
+   padding-right: 2rem;
+  
+}
+#foto img{
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 300px;
+
+}
+#foto .kanan {
+    width: 600px;
+    padding: 40px
+    
+}
+#foto .kanan .detail {
+    padding: 0;
+    margin: 0;
+    
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Mengatur kolom grid agar otomatis menyesuaikan jumlah kolom dengan lebar minimum 250px dan maksimum 1fr */
+    justify-content: center;
+}
+
+
+
+.card {
+    background-color: green;
+    padding: 24px;
+    margin: 4%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    position: relative; /* Mengatur elemen agar posisinya relatif terhadap posisi aslinya di dokumen */
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden; /* Menyembunyikan konten yang melebihi batas elemen tanpa menampilkan scroll */
+    min-height: 220px; /* Menetapkan tinggi minimum elemen sebesar 220 piksel */
+    display: flex;
+    flex-wrap: wrap;
+  
+    
+
+}
+.card p{
+    color: white;
+}
+.card .tulisan1 a {
+    color: white;
+
+    
+}
+.card .tulisan2 a {
+    color: white;
+   
+    
+}
+.card .tulisan3 a{
+    color: white;
+    
+}
+.card .tulisan4 a{
+    color: white;
+    
+}
+.card :hover{
+    transform: translateY(-5px);/* Menggeser elemen ke atas sebesar 5px pada sumbu Y */
+    
+    
+}
+.card h2 {
+    margin: 0 0 10px;
+   font-size: 1.5;
+}
+.icon {
+    position: absolute;
+   bottom: 20px;
+   right: 20px;
+   font-size: 32px;
+   color: white;
+   border: 1px solid #ccc;
+   padding: 15px;
+   border-radius: 15px;
+   transform: rotate(25deg);
+   background-color: #1a1a1a;
+}
+
